@@ -479,8 +479,8 @@ footer {
 
 
   footer img {
-  max-width: 300px;  /* Limita la larghezza massima */
-  width: 60%;  /* L'immagine si adatta al contenitore */
+  max-width: 150px;  /* Limita la larghezza massima */
+  width: 50%;  /* L'immagine si adatta al contenitore */
   height: auto;
   margin: 0 auto;  /* Centra l'immagine */
   display: block;  /* Rende l'immagine un elemento di blocco, utile per centrarla */
