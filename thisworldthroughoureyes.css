@@ -36,8 +36,10 @@ p {
   font-family: Montserrat, Sans-Serif; 
   line-height: 24px;
   text-align: justify;
-  margin-left: 450px;
-  margin-right: 450px;
+  font-size: 3vw; /* La dimensione del font si adatta alla larghezza della finestra */
+  line-height: 1.5;
+  width: 100%; /* Fa sì che il paragrafo occupi tutta la larghezza disponibile */
+}
 
 }
 
