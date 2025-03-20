@@ -29,7 +29,6 @@ h2 {
 
 p {
   font-size: 15 px; 
-  line-height: 1.8; /* Spazio tra le righe per una lettura più comoda */
   margin-left: 400 px; /* Margine a sinistra proporzionale alla larghezza della finestra */
   margin-right: 400 px; /* Margine a destra proporzionale alla larghezza della finestra */
   margin-top: 20px; /* Un po' di spazio sopra */
@@ -39,7 +38,7 @@ p {
   word-wrap: break-word; /* Assicura che le parole troppo lunghe non escano dal paragrafo */
   max-width: 90%; /* Impedisce che il paragrafo diventi troppo largo su schermi grandi */
   padding: 15px; /* Padding per evitare che il testo tocchi i bordi del paragrafo */
-  transition: all 0.3s ease; /* Transizione per un effetto più morbido se si cambiano gli stili */
+
 }
 
 
