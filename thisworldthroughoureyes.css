@@ -474,8 +474,8 @@ font-family: Montserrat;
 /* Footer Generale */
 footer {
   width: 100%;                  /* Occupa tutta la larghezza disponibile */
-  background-color: #333;       /* Colore di sfondo scuro */
-  color: #fff;                  /* Colore del testo bianco */
+  background-color: #D3D3D3;       /* Colore di sfondo grigetto chiaro */
+  color: black;                 /* Colore del testo nero */
   padding: 40px 20px;           /* Aggiungi del padding sopra e sotto */
   text-align: center;           /* Allinea il testo al centro */
   position: relative;           /* Per eventuale posizionamento degli elementi */
