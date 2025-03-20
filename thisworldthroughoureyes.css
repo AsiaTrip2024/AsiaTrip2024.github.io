@@ -50,7 +50,7 @@ figure {
 
 img {
   width: 100%;  /* Imposta l'immagine per adattarsi al contenitore */
-  border-radius: 30px;
+  border-radius: 30px !important;
   max-width: 600px;  /* Imposta una larghezza massima per l'immagine */
   height: auto;
 }
