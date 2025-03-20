@@ -28,19 +28,17 @@ h2 {
 }
 
 p {
-  font-size: 1.5rem; /* Imposta una dimensione di font leggibile */
+  font-size: 15 px; 
   line-height: 1.8; /* Spazio tra le righe per una lettura più comoda */
-  margin-left: 5vw; /* Margine a sinistra proporzionale alla larghezza della finestra */
-  margin-right: 5vw; /* Margine a destra proporzionale alla larghezza della finestra */
+  margin-left: 400 px; /* Margine a sinistra proporzionale alla larghezza della finestra */
+  margin-right: 400 px; /* Margine a destra proporzionale alla larghezza della finestra */
   margin-top: 20px; /* Un po' di spazio sopra */
   margin-bottom: 20px; /* Un po' di spazio sotto */
   font-family: Montserrat, sans-serif; 
   text-align: justify; /* Giustifica il testo per una disposizione uniforme */
   word-wrap: break-word; /* Assicura che le parole troppo lunghe non escano dal paragrafo */
   max-width: 90%; /* Impedisce che il paragrafo diventi troppo largo su schermi grandi */
-  box-sizing: border-box; /* Per evitare che padding e bordi influenzino la larghezza totale */
   padding: 15px; /* Padding per evitare che il testo tocchi i bordi del paragrafo */
-  border-radius: 8px; /* Rende gli angoli leggermente arrotondati */
   transition: all 0.3s ease; /* Transizione per un effetto più morbido se si cambiano gli stili */
 }
 
