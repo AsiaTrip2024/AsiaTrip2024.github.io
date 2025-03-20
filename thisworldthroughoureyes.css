@@ -72,8 +72,12 @@ figcaption {
 text-decoration: none;
 color: rgb(44, 40, 40);
 font-family: Montserrat;
-
 }
+
+.navbar a:hover {
+      background-color: #555; /* Colore di schiarimento al passaggio del mouse */
+      transition: background-color 0.3s ease; /* Transizione per un effetto più fluido */
+    }
 
 .button {
   color: #fff;
