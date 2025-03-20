@@ -476,6 +476,6 @@ footer {
 }
 
 .footer-img {
-  width: 200px;  /* Imposta una larghezza fissa */
+  width: 50px;  /* Imposta una larghezza fissa */
   height: auto;
   border-radius: 0;  /* Rimuove i bordi arrotondati */
