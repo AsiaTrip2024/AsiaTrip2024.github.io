@@ -45,11 +45,14 @@ figure {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px auto;
+  margin: 20px auto;  /* Imposta il margine a sinistra e a destra su auto per centrare */
+  width: 100%;
+  max-width: 600px;  /* Puoi usare una larghezza massima se vuoi limitare la larghezza */
 }
 
+
 img {
-  width: 100%;  /* Imposta l'immagine per adattarsi al contenitore */
+  width: 100%;  /* L'immagine occuperà il 100% della larghezza del contenitore */
   border-radius: 30px !important;
   max-width: 600px;  /* Imposta una larghezza massima per l'immagine */
   height: auto;
