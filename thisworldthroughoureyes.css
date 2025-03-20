@@ -471,19 +471,23 @@ font-family: Montserrat;
   line-height: 24px;
 }
 
+/* Footer Generale */
 footer {
-  width: 100%;
-  max-width: 1200px;  /* Imposta una larghezza massima per il footer */
-  margin: 0 auto;  /* Centra il footer nella pagina */
+  width: 100%;                  /* Occupa tutta la larghezza disponibile */
+  background-color: #333;       /* Colore di sfondo scuro */
+  color: #fff;                  /* Colore del testo bianco */
+  padding: 40px 20px;           /* Aggiungi del padding sopra e sotto */
+  text-align: center;           /* Allinea il testo al centro */
+  position: relative;           /* Per eventuale posizionamento degli elementi */
 }
 
-
-  footer img {
-  max-width: 150px;  /* Limita la larghezza massima */
-  width: 50%;  /* L'immagine si adatta al contenitore */
-  height: auto;
-  margin: 0 auto;  /* Centra l'immagine */
-  display: block;  /* Rende l'immagine un elemento di blocco, utile per centrarla */
-  border-radius: 0;  /* Rimuove i bordi arrotondati */
-
-}
+/* Immagine nel Footer */
+footer img {
+  max-width: 200px;             /* Imposta una larghezza massima per l'immagine */
+  width: 100%;                  /* Rende l'immagine responsiva */
+  height: auto;                 /* Mantieni le proporzioni dell'immagine */
+  margin: 20px 0;               /* Aggiungi margine sopra e sotto l'immagine */
+  display: block;               /* Rende l'immagine un blocco per centrarla */
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;          /* Aggiungi bordi arrotondati all'immagine */
