@@ -35,8 +35,8 @@ p {
   font-family: Montserrat, Sans-Serif; 
   line-height: 24px;
   text-align: justify;
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 300px;
+  margin-right: 300px;
 
 }
 
@@ -50,6 +50,8 @@ figcaption {
 
 img {
   border-radius: 30px
+  margin-left:120px;
+  margin-right:120px;
 }
 
 .nav-link {
