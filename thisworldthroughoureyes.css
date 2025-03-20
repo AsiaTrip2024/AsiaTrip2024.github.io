@@ -49,9 +49,12 @@ figcaption {
 }
 
 img {
+  width: 100%;
+  max-width: 500px;
   border-radius: 30px
-  margin-left:120px;
-  margin-right:120px;
+  height: auto;
+  margin: 20px auto;  /* Aggiunge 20px di margine sopra e sotto l'immagine, e la centrerà orizzontalmente */
+  display: block;  /* Impedisce che l'immagine venga visualizzata come inline, permettendo la centratura */
 }
 
 .nav-link {
