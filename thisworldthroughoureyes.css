@@ -40,22 +40,29 @@ p {
 
 }
 
-figcaption {
-  font-family: Montserrat, Sans-Serif;
-  font-size: 16px;                    
-  color: #555555;                               
-  margin-top: 10px;                          
-  letter-spacing: 1px;  
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
 }
 
 img {
-  width: 100%;
-  max-width: 1000px;
-  border-radius: 30px
+  width: 100%;  /* Imposta l'immagine per adattarsi al contenitore */
+  border-radius: 30px;
+  max-width: 600px;  /* Imposta una larghezza massima per l'immagine */
   height: auto;
-  margin: 20px auto;  /* Aggiunge 20px di margine sopra e sotto l'immagine, e la centrerà orizzontalmente */
-  display: block;  /* Impedisce che l'immagine venga visualizzata come inline, permettendo la centratura */
 }
+
+figcaption {
+  font-family: Montserrat, Sans-Serif;
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
 
 .nav-link {
 text-decoration: none;
@@ -467,3 +474,8 @@ footer {
   background-color: #f8f7f7;
   color: rgb(8, 7, 7);
 }
+
+.footer-img {
+  width: 200px;  /* Imposta una larghezza fissa */
+  height: auto;
+  border-radius: 0;  /* Rimuove i bordi arrotondati */
