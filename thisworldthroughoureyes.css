@@ -30,13 +30,15 @@ h2 {
 
 
 p {
+  margin-left: 5vw; /* 5% della larghezza della finestra */
+  margin-right: 5vw; /* 5% della larghezza della finestra */
+  font-size: 1.5rem;
+  line-height: 1.6;
   margin-top: 0;
   margin-bottom: 25px;
-  font-size: 14px;
   font-family: Montserrat, Sans-Serif; 
-  line-height: 24px;
+  line-height: 12px;
   text-align: justify;
-  line-height: 1.5;
   width: 100%; /* Fa sì che il paragrafo occupi tutta la larghezza disponibile */
 }
 
@@ -485,15 +487,15 @@ footer {
   width: 100%;                  /* Occupa tutta la larghezza disponibile */
   background-color: #D3D3D3;       /* Colore di sfondo grigetto chiaro */
   color: black;                 /* Colore del testo nero */
-  padding: 40px 20px;           /* Aggiungi del padding sopra e sotto */
+  padding: 300px 0px;           /* Aggiungi del padding sopra e sotto */
   text-align: center;           /* Allinea il testo al centro */
   position: relative;           /* Per eventuale posizionamento degli elementi */
 }
 
 /* Immagine nel Footer */
 footer img {
-  max-width: 200px;             /* Imposta una larghezza massima per l'immagine */
-  width: 100%;                  /* Rende l'immagine responsiva */
+  max-width: 100px;             /* Imposta una larghezza massima per l'immagine */
+  width: 500%;                  /* Rende l'immagine responsiva */
   height: auto;                 /* Mantieni le proporzioni dell'immagine */
   margin: 20px 0;               /* Aggiungi margine sopra e sotto l'immagine */
   display: block;               /* Rende l'immagine un blocco per centrarla */
