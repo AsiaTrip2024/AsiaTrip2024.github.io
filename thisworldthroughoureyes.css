@@ -50,7 +50,7 @@ figcaption {
 
 img {
   width: 100%;
-  max-width: 500px;
+  max-width: 1000px;
   border-radius: 30px
   height: auto;
   margin: 20px auto;  /* Aggiunge 20px di margine sopra e sotto l'immagine, e la centrerà orizzontalmente */
