@@ -496,7 +496,7 @@ footer {
 /* Immagine nel Footer */
 footer img {
   max-width: 100px;             /* Imposta una larghezza massima per l'immagine */
-  width: 500%;                  /* Rende l'immagine responsiva */
+  width: 50%;                  /* Rende l'immagine responsiva */
   height: auto;                 /* Mantieni le proporzioni dell'immagine */
   margin: 20px 0;               /* Aggiungi margine sopra e sotto l'immagine */
   display: block;               /* Rende l'immagine un blocco per centrarla */
