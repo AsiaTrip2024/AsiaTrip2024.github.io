@@ -490,7 +490,7 @@ footer {
   background-color: #f8f7f7;
   color: rgb(8, 7, 7);
   padding: 20px;
-  width: 100%;
+  width: 100%; !important
 }
 
 /* Immagine nel Footer */
