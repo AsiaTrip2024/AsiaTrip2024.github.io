@@ -68,21 +68,6 @@ figcaption {
 }
 
 
-.nav-link {
-text-decoration: none;
-color: rgb(44, 40, 40);
-font-family: Montserrat;
-}
-
-
-.navbar a:hover {
-      background-color: #555; /* Colore di schiarimento al passaggio del mouse */
-      transition: background-color 0.3s ease; /* Transizione per un effetto più fluido */
-      justify-content: space-between; /* Distanza uniforme tra gli elementi */
-      padding: 10px 20px;
-      position: fixed;
-    }
-
 .button {
   color: #fff;
   text-align: center;
@@ -157,12 +142,20 @@ font-family: Montserrat;
 .button.tab.w--current {
   background-color: var(--steel-blue);
 }
-     
 
-.navigation-link:hover {
-  color: #020910;
-  text-decoration:none;
+
+.nav-link {
+text-decoration: none;
+color: rgb(44, 40, 40);
+font-family: Montserrat;
 }
+
+.navbar a:hover {
+      color: #555; /* Colore di schiarimento al passaggio del mouse */
+      transition: background-color 0.3s ease; /* Transizione per un effetto più fluido */
+      padding: 10px 20px;
+    }
+
 
 .navigation-link.white {
   color: #030303;
