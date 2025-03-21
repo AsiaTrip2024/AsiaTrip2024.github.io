@@ -28,9 +28,8 @@ h2 {
 }
 
 p {
-  font-size: 15 px; 
-  margin-left: 400 px; /* Margine a sinistra proporzionale alla larghezza della finestra */
-  margin-right: 400 px; /* Margine a destra proporzionale alla larghezza della finestra */
+  font-size: 15px; 
+  margin-left: 400px auto; /* Margine a sinistra proporzionale alla larghezza della finestra */
   margin-top: 20px; /* Un po' di spazio sopra */
   margin-bottom: 20px; /* Un po' di spazio sotto */
   font-family: Montserrat, sans-serif; 
