@@ -148,10 +148,15 @@ figcaption {
 text-decoration: none;
 color: rgb(44, 40, 40);
 font-family: Montserrat;
+transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-link:hover {
+   color: #8a8888;
 }
 
 .navbar a:hover {
-      color: #555; /* Colore di schiarimento al passaggio del mouse */
+      color: #8a8888; /* Colore di schiarimento al passaggio del mouse */
       transition: background-color 0.3s ease; /* Transizione per un effetto più fluido */
       padding: 10px 20px;
     }
