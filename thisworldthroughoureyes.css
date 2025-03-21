@@ -36,8 +36,8 @@ p {
   font-family: Montserrat, sans-serif; 
   text-align: justify; /* Giustifica il testo per una disposizione uniforme */
   word-wrap: break-word; /* Assicura che le parole troppo lunghe non escano dal paragrafo */
-  max-width: 90%; /* Impedisce che il paragrafo diventi troppo largo su schermi grandi */
-  padding: 15px; /* Padding per evitare che il testo tocchi i bordi del paragrafo */
+  max-width: 70%; /* Impedisce che il paragrafo diventi troppo largo su schermi grandi */
+  padding: 30px; /* Padding per evitare che il testo tocchi i bordi del paragrafo */
 
 }
 
@@ -482,12 +482,15 @@ font-family: Montserrat;
   line-height: 24px;
 }
 
+
 footer {
   font-family: Montserrat, sans-serif;
   text-align: center; 
   padding: 20px;
   background-color: #f8f7f7;
   color: rgb(8, 7, 7);
+  padding: 20px;
+  width: 100%;
 }
 
 /* Immagine nel Footer */
