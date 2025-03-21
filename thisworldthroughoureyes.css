@@ -493,9 +493,9 @@ footer {
   width: 100%; !important
 }
 
-/* Immagine nel Footer */
+  
 footer img {
-  max-width: 50px;             /* Imposta una larghezza massima per l'immagine */
+  max-width: 60px;             /* Imposta una larghezza massima per l'immagine */
   width: 50px;                 
   height: auto;                 /* Mantieni le proporzioni dell'immagine */
   margin: 20px 0;               /* Aggiungi margine sopra e sotto l'immagine */
