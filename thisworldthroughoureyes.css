@@ -143,9 +143,18 @@ figcaption {
   background-color: var(--steel-blue);
 }
 
+.navigation-bar {
+  text-align: center;
+  margin-top: 45px;
+  padding: 10px 20px;
+  position: sticky;
+  width: 100%; 
+  z-index: 1000; 
+}
 
 .nav-link {
 text-decoration: none;
+padding: 10px 15px;
 color: rgb(44, 40, 40);
 font-family: Montserrat;
 transition: color 0.3s ease, background-color 0.3s ease;
@@ -155,21 +164,11 @@ transition: color 0.3s ease, background-color 0.3s ease;
    color: #8a8888;
 }
 
-.navbar a:hover {
-      color: #8a8888; /* Colore di schiarimento al passaggio del mouse */
-      transition: background-color 0.3s ease; /* Transizione per un effetto più fluido */
-      padding: 10px 20px;
-    }
-
 
 .navigation-link.white {
   color: #030303;
 }
 
-.navigation-bar {
-  text-align: center;
-  margin-top: 45px;
-}
 
 .navigation-bar.dark {
   background-color: #5d5d5d;
@@ -190,6 +189,12 @@ transition: color 0.3s ease, background-color 0.3s ease;
   float: none;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .navbar-menu {
+    flex-direction: column; /* Dispone i link in colonna */
+    align-items: center; /* Centra i link verticalmente */
+  }
 
 .brand-text {
   margin-top: 0;
